@@ -14,4 +14,12 @@ public enum Suit {
 		this.displayChar = c;
 	}
 
+	public String getDisplayText() {
+		return displayText;
+	}
+
+	public char getDisplayChar() {
+		return displayChar;
+	}
+
 }
